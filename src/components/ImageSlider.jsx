@@ -1,19 +1,20 @@
 import React, {useState} from 'react'
 import {SliderData} from './SliderData';
 
+
 const ImageSlider = () => {
 
     const [current, setCurrent] = useState(0);
-    const length = slides.length;
+    //const length = slides.length;
 
     return (
-        <>
-            {SliderData.map((slider, index) =>{
+        <section className="slider">
+            {SliderData.map((slide, index) =>{
                 return (
-                    <img src={slider.image} alt="img-1"/>
+                    <img src={slide.image} alt="img-1"/>
                 )
             })}
-        </>
+        </section>
     )
 }
 
