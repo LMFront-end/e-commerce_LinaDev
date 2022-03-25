@@ -14,3 +14,5 @@ const SliderData = [
     },
 
 ]
+
+export { SliderData }

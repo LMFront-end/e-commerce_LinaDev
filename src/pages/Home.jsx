@@ -1,11 +1,12 @@
 import React from 'react'
+import { ImageSlider } from '../components/ImageSlider'
 
 
 
 const Home = () => {
     return (
         <div>
-        <h5>Slider</h5>
+        <ImageSlider />
         <h4>Home</h4>
         </div>
     )
