@@ -1,1 +1,35 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+/* Colors variable */
+
+:roo {
+    --bd-color-one: #f7d794;
+    --bd-color-two: #ea8685;
+    --bd-color-font: #303952;
+    --bd-color-logo: #e66767;
+}
+
+
 /* General Styles */
+
+
+/* start Navbar */
+
+.navbar-brand {
+    font-family: 'Hurricane', cursive;
+    font-size: 20px;
+    color: var(--bd-color-logo) !important;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--bd-color-font);
+    font-weight: 600;
+}
+
+
+/* end Navbar */

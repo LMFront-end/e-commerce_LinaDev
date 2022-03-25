@@ -1,12 +1,12 @@
 import React from 'react';
 
 const NavBar = () => {
-  return (
+    return (
     <div>
 
       {/* Component bootstrap */}
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
 
             <div class="container">
             <a class="navbar-brand fw-bold fs-4" href="#">
