@@ -37,9 +37,9 @@ const HomeServices = () => {
                     <img src="https://images.pexels.com/photos/11012766/pexels-photo-11012766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
                     <img src="https://images.pexels.com/photos/11556911/pexels-photo-11556911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
                     <img src="https://images.pexels.com/photos/11459874/pexels-photo-11459874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="../img/img13.jpeg" alt="" className="img-galeria" />
-                    <img src="../img/img14.jpeg" alt="" className="img-galeria" />
-                    <img src="../img/img15.jpeg" alt="" className="img-galeria" />
+                    <img src="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
+                    <img src="https://images.pexels.com/photos/8452063/pexels-photo-8452063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
+                    <img src="https://images.pexels.com/photos/9139846/pexels-photo-9139846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
                 </div>
             </div>
         </section>
