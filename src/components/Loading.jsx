@@ -16,7 +16,11 @@ const Loading = () => {
         <div clasName="d-flex justify-content-center col-md-3">
             <Skeleton height={350}/>
         </div>
+
+        <h2>Loading...</h2>
         </>
+
+    
     )
 }
 
