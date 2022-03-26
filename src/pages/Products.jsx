@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import {Loading} from '../components/Loading'
+import {ShowProducts} from '../components/ShowProducts'
 
 const Products = () => {
 
     const [data, setData] = useState([]);
     const [filter, setFilter] = useState(data);
     const [loading, setLoading] = useState(false);
+    let componentMounted = true;
 
     useEffect(() => {
 
@@ -43,7 +45,6 @@ const Products = () => {
                     {
                         loading ? <Loading /> : <ShowProducts />
                     }
-
                 </div>
             </div>
         </div>

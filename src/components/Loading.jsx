@@ -2,8 +2,8 @@ import React from 'react'
 
 const Loading = () => {
     return (
-        <div clasName="spinner">
-            <h1>Loagind ...</h1>
+        <div>
+            <h1  clasName="spinner">Loagind ...</h1>
         </div>
     )
 }
