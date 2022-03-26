@@ -38,9 +38,12 @@ const handleCart = (state = cart, action) => {
             }
 
             break;
+
+        default:
+            break;
     }
 
 }
 
 
-export default handleCart;
+export { handleCart };
