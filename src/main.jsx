@@ -9,8 +9,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 // react icons
 import '../node_modules/react-icons/fa';
-// routes
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter} from '../node_modules/react-router-dom'
 
 ReactDOM.render(
   <BrowserRouter>
