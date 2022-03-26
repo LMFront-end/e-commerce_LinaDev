@@ -44,26 +44,26 @@ const HomeServices = () => {
             </div>
         </section>
 
-        <section class="contenedor" id="expertos">
-            <h2 class="subtitulo">
+        <section className="contenedor" id="expertos">
+            <h2 className="subtitulo">
                 Specialized in:
             </h2>
-            <section class="experts">
-                <div class="cont-expert">
+            <section className="experts">
+                <div className="cont-expert">
                     <img src="https://cdn-icons-png.flaticon.com/512/1248/1248520.png?w=740" alt="" />
-                    <h3 class="n-expert">
+                    <h3 className="n-expert">
                         Design
                     </h3>
                 </div>
-                <div class="cont-expert">
+                <div className="cont-expert">
                     <img src="https://cdn-icons-png.flaticon.com/512/1248/1248501.png?w=740" alt="" />
-                    <h3 class="n-expert">
+                    <h3 className="n-expert">
                         Styles
                     </h3>
                 </div>
-                <div class="cont-expert">
+                <div className="cont-expert">
                     <img src="https://cdn-icons-png.flaticon.com/512/1248/1248506.png?w=740" alt="" />
-                    <h3 class="n-expert">
+                    <h3 className="n-expert">
                         Trends
                     </h3>
                 </div>
