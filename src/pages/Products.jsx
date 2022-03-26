@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, Fragment} from 'react'
 import {Loading} from '../components/Loading'
 
 
@@ -32,22 +32,27 @@ const Products = () => {
     }, [])
 
     
-const ShowProducts = () => {
+    const filterProduct = (cat) => {
+        const updatedList = data.filter((x) => x.category === cat);
+        setFilter(updatedList);
+    }
+    
+    const ShowProducts = () => {
 
     return (
         <>
         <div className="buttons d-flex justify-content-center mb-5 pb-5">
-            <button className="btn btn-outline-dark me-5">All</button>
-            <button className="btn btn-outline-dark me-5">Men's</button>
-            <button className="btn btn-outline-dark me-5">Woman's</button>
-            <button className="btn btn-outline-dark me-5">Jewelery</button>
-            <button className="btn btn-outline-dark me-5">Electronic</button>
+            <button className="btn btn-outline-dark me-5" onClick={() => setFilter(data)}>All</button>
+            <button className="btn btn-outline-dark me-5" onClick={() => filterProduct("men's clothing")}>Men's</button>
+            <button className="btn btn-outline-dark me-5" onClick={() => filterProduct("women's clothing")}>Woman's</button>
+            <button className="btn btn-outline-dark me-5" onClick={() => filterProduct("jewelery")}>Jewelery</button>
+            <button className="btn btn-outline-dark me-5" onClick={() => filterProduct("electronics")}>Electronic</button>
         </div>
 
-        {filter.map((product, index)=> {
+        {filter.map((product)=> {
 
             return (
-                <>
+                <Fragment key={product.id}>
                     <div className="col-md-3 mb-5">
                     <div className="card h-100 text-center p-4 key={product.id}">
                         <img src={product.image} className="card-img-top" alt={product.title} height="250px" />
@@ -58,7 +63,7 @@ const ShowProducts = () => {
                     </div>
                     </div>
                     </div>
-                </>
+                </Fragment>
             )
         })}
         </>

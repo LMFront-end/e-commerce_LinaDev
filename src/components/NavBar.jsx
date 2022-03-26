@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom'
 
 const NavBar = () => {
     return (
@@ -9,7 +10,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
 
             <div className="container">
-            <a className="navbar-brand fw-bold fs-4" href="#">
+            <a className="navbar-brand fw-bold fs-4" to="/">
                 LinaDevShop
             </a>
 
@@ -29,23 +30,23 @@ const NavBar = () => {
                 <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Products</a>
+                        <NavLink className="nav-link" to="/products">Products</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <NavLink className="nav-link" to="/about">About</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
+                        <NavLink className="nav-link" to="/contact">Contact</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Wish list</a>
+                        <NavLink className="nav-link" to="/wish" >Wish list</NavLink>
                     </li>
 
                 </ul>
