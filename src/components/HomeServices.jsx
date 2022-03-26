@@ -9,7 +9,7 @@ const HomeServices = () => {
                 Our Services
             </h2>
             <div className="contenedor-servicio">
-                <img src="../icon/icon3.svg" alt="" />
+                <img className="imagen_servicio" src="https://cdn-icons-png.flaticon.com/512/1246/1246270.png?w=740" alt="" />
                 <div className="checklist-servicio">
                     <div className="service">
                         <h3 className="n-service"><span className="number">1</span>Unique designs</h3>
@@ -31,7 +31,7 @@ const HomeServices = () => {
 
         <section className="gallery">
             <div className="contenedor">
-                <h2 className="subtitulo">Galeria</h2>
+                <h2 className="subtitulo">Wild Fashion Gallery</h2>
                 <div className="contenedor-galeria">
 
                     <img src="https://images.pexels.com/photos/11012766/pexels-photo-11012766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
@@ -46,25 +46,25 @@ const HomeServices = () => {
 
         <section class="contenedor" id="expertos">
             <h2 class="subtitulo">
-                Especializados en:
+                Specialized in:
             </h2>
             <section class="experts">
                 <div class="cont-expert">
-                    <img src="./icon/iconf2.svg" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1248/1248520.png?w=740" alt="" />
                     <h3 class="n-expert">
                         Design
                     </h3>
                 </div>
                 <div class="cont-expert">
-                    <img src="./icon/iconf3.svg" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1248/1248501.png?w=740" alt="" />
                     <h3 class="n-expert">
                         Styles
                     </h3>
                 </div>
                 <div class="cont-expert">
-                    <img src="./icon/iconf4.svg" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1248/1248506.png?w=740" alt="" />
                     <h3 class="n-expert">
-                        Codes
+                        Trends
                     </h3>
                 </div>
             </section>

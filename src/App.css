@@ -71,6 +71,7 @@
     text-align: center;
     font-weight: 300;
     color: #9f8ad0;
+    margin-top: 20px;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -83,7 +84,7 @@
 }
 
 .contenedor-servicio img {
-    width: 40%;
+    width: 20%;
 }
 
 .checklist-servicio {
@@ -97,6 +98,11 @@
 .n-service {
     margin-bottom: 7px;
     color: #9f8ad0;
+}
+
+.imagen_servicio {
+    width: 20%;
+    margin-bottom: 30px;
 }
 
 .number {
@@ -208,7 +214,7 @@
 }
 
 .cont-expert {
-    width: 30%;
+    width: 10%;
     text-align: center;
     margin-bottom: 40px;
 }
