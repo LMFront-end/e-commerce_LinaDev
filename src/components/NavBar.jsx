@@ -44,6 +44,10 @@ const NavBar = () => {
                         <a class="nav-link" href="#">Contact</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wish list</a>
+                    </li>
+
                 </ul>
 
                     <div className="buttons">
@@ -56,7 +60,7 @@ const NavBar = () => {
                         </a>
 
                         <a href= "" className="btn btn-outline-dark  ms-2">
-                            <i className="fa fa-shopping-cart me-1"></i> Card (0)
+                            <i className="fa fa-shopping-cart me-1"></i> Cart (0)
                         </a>
 
                     </div>

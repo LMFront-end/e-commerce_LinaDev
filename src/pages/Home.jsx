@@ -1,21 +1,24 @@
 import React from 'react';
+import { HomeServices } from '../components/HomeServices';
 
 const Home = () => {
     return (
         <div className="hero">
-            <div class="card bg-dark text-white">
-                <img src="https://images.pexels.com/photos/5210380/pexels-photo-5210380.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="card-img" alt="background" height="550px"/>
-            <div class="card-img-overlay">
+            <div className="card bg-dark text-white image_home">
+                <img className="welcome"/>
+            <div class="card-img-overlay d-flex flex-column justify-content-center">
 
-            <div className="container">
-                <h5 class="card-title display-3 fw-bolder mb-0">STYLE, SELF-LOVE, INSPIRATION</h5>
-                <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-            </p>
+                <div className="container">
 
+                    <h5 class="card-title display-3 fw-bolder mb-0">STYLE, SELF-LOVE, INSPIRATION</h5>
+
+                    <p class="card-text lead fs-2">
+                        CHECK OUT THIS WEEK'S TOP SELLERS
+                    </p>
+                </div>
             </div>
         </div>
-        </div>
+        <HomeServices />
         </div>
         );
 };
