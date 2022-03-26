@@ -282,12 +282,14 @@
     align-content: center;
     padding: 0 100px;
     height: 50px;
+    border-top: 2px solid #333;
+    background-color: rgb(7, 6, 6);
 }
 
 .footer__container .copy {
-    font-family: var(--font-IMBPXMono);
+    font-family: inherit;
     font-size: 16px;
-    color: var(--Colorprimary);
+    color: #333;
     margin-top: 15px;
 }
 
