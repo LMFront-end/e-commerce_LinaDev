@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import {useSelector, useDispatch} from 'react-redux';
+import {useDispatch} from 'react-redux';
+import {addCart} from '../redux/action';
 import {useParams} from 'react-router';
 import { Loading } from '../components/Loading';
 import {Link} from 'react-router-dom'
@@ -9,6 +10,11 @@ const Product = () => {
     const {id} = useParams();
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false);
+
+    const dispatch = useDispatch();
+    const addProduct = (product) => {
+        dispatch(addCart(product));
+    }
 
 
     useEffect(() => {
@@ -46,7 +52,7 @@ const Product = () => {
                     <p className="lead">
                         {product.description}
                     </p>
-                    <button className="btn btn-outline-dark px-4 py-2">
+                    <button className="btn btn-outline-dark px-4 py-2" onClick={() =>addProduct(product)}>
                         Add to Cart <i className="fa fa-shopping-cart me-1"></i>
                     </button>
                     <Link to="/cart" className="btn btn-outline-dark ms-2 px-3 py-2">

@@ -19,3 +19,6 @@ const delCart = (product) => {
         payload: product
     }
 }
+
+
+export { addCart, delCart }
