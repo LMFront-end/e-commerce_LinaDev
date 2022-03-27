@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import { HomeServices } from '../components/HomeServices';
-//import { Products } from './Products';
+
 
 const Home = () => {
     return (

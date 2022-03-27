@@ -16,16 +16,16 @@ const Cart = () => {
 
     const cartItems = (cartItem) => {
         return(
-            <div className="px-4 my-5 bg-light rounder-3" key={cartItem.id}>
+            <div className="px-4 my-5 bg-light rounded-3" key={cartItem.id}>
                 <div className="container py-4">
                     <button onClick={()=>handleClose(cartItem)} className="btn-close float-end" arial-label="Close"></button>
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-start">
                         <div className="col-md-4">
-                            <img src={cartItem.img} alt={cartItem.title} height="200px" width="180px" />
+                            <img src={cartItem.image} alt={cartItem.title} height="200px" width="180px" />
                         </div>
                         <div clasName ="col-md-4">
-                            <h3>{cartItem.title}</h3>
-                            <p className="lead fw-bold">${cartItem.price}</p>
+                            <h3 className="title_cartItem">Product: {cartItem.title}</h3>
+                            <p className="lead fw-bold">Price: ${cartItem.price}</p>
                         </div>
                     </div>
                 </div>
