@@ -21,7 +21,7 @@ const Cart = () => {
                     <button onClick={()=>handleClose(cartItem)} className="btn-close float-end" arial-label="Close"></button>
                     <div className="row justify-content-center">
                         <div className="col-md-4">
-                            <img src={cartItem.image} alt={cartItem.title} height="200px" width="180px" />
+                            <img src={cartItem.img} alt={cartItem.title} height="200px" width="180px" />
                         </div>
                         <div clasName ="col-md-4">
                             <h3>{cartItem.title}</h3>
