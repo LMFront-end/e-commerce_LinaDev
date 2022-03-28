@@ -41,7 +41,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(../src/img/portada4.jpeg);
+    background: url(../src/assets/portada4.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
